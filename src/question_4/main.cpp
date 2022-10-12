@@ -15,7 +15,7 @@ int main()
         cin>>sold;
         points_earned = get_earned_points(sold);
 
-        cout<<points_earned<<"\n";
+        cout<<"Points earned: "<<points_earned<<"\n";
 
         user_choice = run_menu();
     }
