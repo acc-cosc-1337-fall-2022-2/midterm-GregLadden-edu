@@ -6,7 +6,7 @@ using std:: cin;
 
 int main()
 {
-    int sales = 0;
+    double sales = 0;
     int user_choice;
     double sales_commission;
     do {

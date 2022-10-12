@@ -13,11 +13,11 @@ double get_sales_commission(double sales)
 {
     if(sales > 1500) {
         return sales * 0.08;
-    } else if (sales > 999 && sales < 1500  ){
+    } else if (sales > 999 ){
         return sales * 0.07;
-    } else if (sales > 499 && sales < 1000) {
+    } else if (sales > 499) {
         return sales * 0.06;
-    } else if (sales > 0 && sales < 500) {
+    } else if (sales > 0) {
         return sales * 0.05;
     } else {
         return sales * 0;
